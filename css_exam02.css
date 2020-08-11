@@ -1,0 +1,78 @@
+html {font-size: 100%;
+      height: 100%;}
+body {height: 100%;}
+.header{background-color: skyblue;
+        width: 100%;
+        height: 100px;
+        }
+ul{margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  padding: 20px;}
+li{list-style: none;}
+.top_menu li:hover{opacity: 0.5;}
+.panda{float: left;}
+.top_menu li {float: left;}
+.top_menu a{color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 20px;}
+.clearfix:after {content: "";
+                display: block;
+                clear: both;}
+.top_image {width: 70%;
+            float:right;
+            height: 500px;
+            }
+.top_image img{height: fit-content;
+              margin-left: 200px;
+              clear: both;
+              }
+
+.content1{
+          height: 500px;
+          width: 25%;
+          text-align: left;
+          margin-top: 100px;
+          margin-left: 200px;
+         }
+.content1 h3{background-color: skyblue;
+            }
+.content2{
+          height: 300px;
+          width: 43%;
+          margin-right: 100px;
+          margin-top: 200px;
+          text-align: center;
+          line-height: 30px;
+          float:left;
+          display: block;
+
+          }
+.content2 h2{background-color: skyblue;
+            width: 60%;
+            margin-left: 100px;
+            }
+.douhua img{height: 400px;
+            width: 400px;
+            margin-left: 200px;
+            margin-top: 300px;
+            float: left;
+            clear:both;}
+#why {float: left;
+      text-align: center;
+      line-height: 20px;
+      padding: 200px;}
+#why h2{background-color: skyblue;
+        width: 60%;
+        margin-left: 50px;}
+.why_image img{height: 400px;
+              width: 400px;
+              margin-top: 100px;
+              float: left;}
+.what_image img{height: 400px;
+                width: 400px;
+                margin-left: 200px;
+                margin-top: 100px;
+                float: left;}
